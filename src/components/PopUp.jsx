@@ -15,6 +15,7 @@ function PopUp(props) {
             <h3>Email : ravikdtg@gmail.com</h3>
             <h3>Address : Bangalore,India</h3>
             <h3>Phone : 7484906645</h3>
+            <h3>Intrest : Swimming</h3>
           </div>
           <button onClick={handleclose}>close</button>
         </div>
