@@ -14,7 +14,7 @@
 
 .main-inner-div {
   width: 50%;
-  height: 50vh;
+  height: 40vh;
   background-color: rgba(255, 255, 255, 0.5);
   position: relative;
   border: 2px solid #cbd18f;
@@ -25,15 +25,23 @@
 
 .main-inner-div-item button {
   position: absolute;
-  top: 50px;
+  top: 5%;
   right: 50px;
   width: 50px;
+  border-radius: 100px;
+}
+
+.main-inner-div-item img {
+  position: absolute;
+  right: 10%;
+  top: 30%;
+  /* border-radius: 70px; */
 }
 
 .main-inner-div-item-text {
   position: absolute;
-  top: 100px;
-  left: 100px;
+  top: 15%;
+  left: 5%;
   font-family: "Cairo", sans-serif;
   color: #3a6b35;
 }
